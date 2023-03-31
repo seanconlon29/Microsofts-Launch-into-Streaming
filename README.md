@@ -99,8 +99,8 @@ The distribution of ratings in the dataset is heavily skewed towards positive ra
 <figure>
     <p align="center">
         <img src="Illustrations/piechart_top100.png"
-            alt="Top 100 Users compared to all other users"
-            width="400"
+            alt="Pie Chart of Top 100 Users compared to all other users"
+            width="450"
             height="400">
     </p>
 </figure>
