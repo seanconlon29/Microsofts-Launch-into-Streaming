@@ -4,7 +4,7 @@
     <img src="Illustrations/stream_service_readme.jpeg"
          alt="Streaming Service Background"
          width="1200"
-         height="800">
+         height="600">
 </figure>
 
 
