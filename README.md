@@ -69,8 +69,8 @@ The dataset is skewed as certain users have contributed significantly more data 
 
 <figure>
     <p float="left">
-        <img src="Illustrations/top5_user414.png" width="500" height="400"/>
-        <img src="Illustrations/top5_user414.png" width="500" height="400"/> 
+        <img src="Illustrations/top5_user414.png" width="400" height="300"/>
+        <img src="Illustrations/top5_user414.png" width="400" height="300"/> 
     </p>
 </figure>
 
