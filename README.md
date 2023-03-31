@@ -15,6 +15,13 @@ Date: 3/31/2023
 
 ## Stakeholder: Microsoft Studios
 
+<figure>
+    <img src="Illustrations/microsoft_building.jpeg"
+         alt="Microsoft Representation"
+         width="800"
+         height="600">
+</figure>
+
 ### Project Overview
 --------------------------------------------------------------------------------------------------------------------------------
 This project involves building a recommendation system for movies based on the MovieLens dataset, sourced from the GroupLens research lab at the University of Minnesota. The task at hand is to develop a model that can provide top 5 movie recommendations to users, based on their ratings of other movies. To accomplish this, the collaborative filtering approach must be implemented, and a potential hybrid approach could be explored by incorporating content-based filtering to address the cold start problem. The dataset is a widely-used recommendation system dataset in academic literature, and the project requires formulating a specific business problem within the context of recommending movies. Evaluation of the model can be done using the explicit ratings available in the dataset, and careful consideration of metrics is recommended.
@@ -28,13 +35,20 @@ Many popular internet products today, like YouTube, Netflix, Amazon, HBO, Peacoc
 
 In the media and entertainment industry, there are six main types of recommendation systems. In this project we focused on  collaborative, content-based, and hybrid for the launch of this new streaming platform. The concept of a recommendation system is quite broad, and various algorithms can be used to create such systems. The type of recommender system chosen depends largely on the type of available data. Below is a better description of each system.
 
-Content-based Recommendation System:
+<figure>
+    <img src="Illustrations/cb_cf_hybrid_models.png"
+         alt="Collab vs Content vs Hybrid Model"
+         width="800"
+         height="600">
+</figure>
+
+#### Content-based Recommendation System:
 This type of recommendation system uses specific characteristics or features of an item, such as its description, to suggest similar items to the user. It also takes into account the user's preferences and history to generate personalized recommendations. For example, it can recommend movies that are similar to a movie that the user has watched or based on all of the movies that the user has viewed. The system extracts relevant features from the item and uses the user's history to provide suggestions.
 
-Collaborative Recommender System:
+#### Collaborative Recommendation System:
 Collaborative filtering assumes that users who have agreed in the past are likely to agree in the future and have similar preferences. This method generates recommendations by analyzing the rating profiles of different users or items. By identifying other users/items with similar rating histories to the current user/item, it generates recommendations using this information. This technique creates a model based on a user's past actions, including items purchased, selected, or rated. The model is then used to predict items or ratings that the user may be interested in. Collaborative filtering can be classified as memory-based or model-based.
 
-Hybrid Recommender System:
+#### Hybrid Recommendation System:
 A hybrid recommender system combines multiple recommendation techniques to solve problems and improve accuracy. This approach can overcome common issues in recommender systems such as cold start, sparsity, and knowledge engineering bottlenecks. By integrating content-based and collaborative filtering techniques, the hybrid recommender system can leverage the strengths of both approaches and minimize their limitations. Research has shown that hybrid recommender systems perform better than pure content-based or collaborative filtering methods
 
 
@@ -46,6 +60,60 @@ The MovieLens Latest Small dataset, which is a collection of ratings and metadat
 - The movies in the dataset come from a variety of genres, including drama, comedy, action, and romance.
 - The dataset was collected between January 09, 1995 and October 16, 2016.
 - The ratings in the dataset are fairly sparse, meaning that not every user rated every movie. In fact, there are many movies in the dataset that received only a handful of ratings, making it challenging to accurately predict their popularity.
+- To address the cold-start problem,  we created the content-based system. This ensures that old and new users will be recommended possible watches and help users continuously use our platform.
+
+### Our Models
+
+Our Super Users:
+The dataset is skewed as certain users have contributed significantly more data than others. Specifically, two users who favored the drama genre made up almost 5% of the entire dataset. As a result, their preferences may have influenced their ratings for other genres, and they may have rated dramas and comedies higher due to their personal preference.
+
+<figure>
+    <img src="Illustrations/cb_cf_hybrid_models.png"
+         alt="Super User 474"
+         width="800"
+         height="600">
+</figure>
+
+
+#### Ratings by Top 100 Users:
 The distribution of ratings in the dataset is heavily skewed towards positive ratings. About 60% of the ratings are 4 stars or higher, which indicates that users in the dataset generally enjoyed the movies they watched.
-- The dataset includes a wide variety of movies, ranging from obscure independent films to popular blockbusters. However, the most frequently rated movies tend to be well-known classics, such as "Forrest Gump", "Pulp Fiction", and "The Shawshank Redemption".
+
+
+<figure>
+    <img src="Illustrations/cb_cf_hybrid_models.png"
+         alt="Pie Chart of Top 100"
+         width="800"
+         height="600">
+</figure>
+
+
+#### Average viewers by Top 10 Genres:
+The data limitations have caused a skew in the number of views for each genre. Although documentaries may not be the most popular genre, we believe that with sufficient data from a diverse set of users, it could gain popularity.
+
+<figure>
+    <img src="Illustrations/cb_cf_hybrid_models.png"
+         alt="Pie Chart of Top 100"
+         width="800"
+         height="600">
+</figure>
+
+
+#### Recommendation Systems at Work:
+The following includes results printed from our model for userId 2. We used the famous SVD algorithm and the surprise package to create, all of our models.Our Hybrid-Based Model combines both Collaborative and Content-Based models as well as offers our best predicted ratings compared to actual ratings of what your users would highly rate and watch.
+
+<figure>
+    <img src="Illustrations/cb_cf_hybrid_models.png"
+         alt="Pie Chart of Top 100"
+         width="800"
+         height="600">
+</figure>
+
+
+### Conclusion
+
+The dataset includes a wide variety of movies, ranging from obscure independent films to popular blockbusters. However, the most frequently rated movies tend to be well-known classics, such as "Forrest Gump", "Pulp Fiction", and "The Shawshank Redemption".
 Researchers have used the MovieLens dataset to explore a wide range of topics in recommendation systems, such as collaborative filtering, content-based filtering, and hybrid approaches. The dataset has also been used to evaluate the performance of various machine learning algorithms and to test the effectiveness of different recommendation strategies.
+
+## Structure
+
+This is the README of the project. The repo contains our technical jupyter notebook (final_notebook.ipynb) which shows the code used to prepare, clean, and model the data. Our final non-technical presentation can be seen at presentation.pdf
