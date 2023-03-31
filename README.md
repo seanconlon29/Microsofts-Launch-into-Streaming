@@ -62,7 +62,7 @@ The following includes results printed from our model for userId 2. We used the 
 
 <figure>
     <p align="center">
-        <img src="Illustrations/Excel_ActualvsPredict.png"
+        <img src="Illustrations/hybrid_system.png"
          alt="Excel example of Actual vs Predicted Results"
          width="800"
          height="200">
