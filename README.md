@@ -74,8 +74,10 @@ The dataset is skewed as certain users have contributed significantly more data 
          height="600">
 </figure>
 
+
 Ratings by Top 100 Users:
 The distribution of ratings in the dataset is heavily skewed towards positive ratings. About 60% of the ratings are 4 stars or higher, which indicates that users in the dataset generally enjoyed the movies they watched.
+
 
 <figure>
     <img src="Illustrations/cb_cf_hybrid_models.png"
@@ -83,6 +85,7 @@ The distribution of ratings in the dataset is heavily skewed towards positive ra
          width="800"
          height="600">
 </figure>
+
 
 Average viewers by Top 10 Genres:
 The data limitations have caused a skew in the number of views for each genre. Although documentaries may not be the most popular genre, we believe that with sufficient data from a diverse set of users, it could gain popularity.
@@ -94,6 +97,7 @@ The data limitations have caused a skew in the number of views for each genre. A
          height="600">
 </figure>
 
+
 Recommendation Systems at Work:
 The following includes results printed from our model for userId 2. We used the famous SVD algorithm and the surprise package to create, all of our models.Our Hybrid-Based Model combines both Collaborative and Content-Based models as well as offers our best predicted ratings compared to actual ratings of what your users would highly rate and watch.
 
@@ -103,6 +107,7 @@ The following includes results printed from our model for userId 2. We used the 
          width="800"
          height="600">
 </figure>
+
 
 ## Conclusion
 
