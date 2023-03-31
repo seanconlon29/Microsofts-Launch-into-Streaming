@@ -3,10 +3,12 @@
 ## *Generating a Recommendation System with Hybrid Approach for Improved Accuracy in Predicting User Preferences in Video Content.*
 
 <figure>
+    <p float="center">
     <img src="Illustrations/stream_service_readme.jpeg"
          alt="Streaming Service Background"
          width="900"
          height="500">
+    </p>
 </figure>
 
 Authors: Sean Conlon, Vinnie Amadio, Parker DeShazo
@@ -16,10 +18,12 @@ Date: 3/31/2023
 ## Stakeholder: Microsoft Studios
 
 <figure>
-    <img src="Illustrations/microsoft_building.jpeg"
+    <p float="center">
+        <img src="Illustrations/microsoft_building.jpeg"
          alt="Microsoft Representation"
          width="700"
          height="500">
+    </p>
 </figure>
 
 ### Project Overview
@@ -36,10 +40,12 @@ Many popular internet products today, like YouTube, Netflix, Amazon, HBO, Peacoc
 In the media and entertainment industry, there are six main types of recommendation systems. In this project we focused on  collaborative, content-based, and hybrid for the launch of this new streaming platform. The concept of a recommendation system is quite broad, and various algorithms can be used to create such systems. The type of recommender system chosen depends largely on the type of available data. Below is a better description of each system.
 
 <figure>
-    <img src="Illustrations/cb_cf_hybrid_models.png"
+    <p float="center">
+        <img src="Illustrations/cb_cf_hybrid_models.png"
          alt="Collab vs Content vs Hybrid Model"
          width="600"
          height="400">
+    </p>
 </figure>
 
 #### Content-based Recommendation System:
@@ -68,7 +74,7 @@ Our Super Users:
 The dataset is skewed as certain users have contributed significantly more data than others. Specifically, two users who favored the drama genre made up almost 5% of the entire dataset. As a result, their preferences may have influenced their ratings for other genres, and they may have rated dramas and comedies higher due to their personal preference.
 
 <figure>
-    <p float="left">
+    <p float="center">
         <img src="Illustrations/top5_user414.png" width="400" height="300"/>
         <img src="Illustrations/top5_user414.png" width="400" height="300"/> 
     </p>
@@ -80,10 +86,12 @@ The distribution of ratings in the dataset is heavily skewed towards positive ra
 
 
 <figure>
-    <img src="Illustrations/piechart_top100.png"
-         alt="Top 100 Users compared to all other users"
-         width="600"
-         height="400">
+    <p float="center">
+        <img src="Illustrations/piechart_top100.png"
+            alt="Top 100 Users compared to all other users"
+            width="600"
+            height="400">
+    </p>
 </figure>
 
 
@@ -91,10 +99,12 @@ The distribution of ratings in the dataset is heavily skewed towards positive ra
 The data limitations have caused a skew in the number of views for each genre. Although documentaries may not be the most popular genre, we believe that with sufficient data from a diverse set of users, it could gain popularity.
 
 <figure>
-    <img src="Illustrations/AvgNumViews_Genre.png"
+    <p float="center">
+        <img src="Illustrations/AvgNumViews_Genre.png"
          alt="Top 10 Genres by Average Number of Views"
          width="600"
          height="400">
+    </p>
 </figure>
 
 
@@ -102,10 +112,12 @@ The data limitations have caused a skew in the number of views for each genre. A
 The following includes results printed from our model for userId 2. We used the famous SVD algorithm and the surprise package to create, all of our models.Our Hybrid-Based Model combines both Collaborative and Content-Based models as well as offers our best predicted ratings compared to actual ratings of what your users would highly rate and watch.
 
 <figure>
-    <img src="Illustrations/cb_cf_hybrid_models.png"
+    <p float="center">
+        <img src="Illustrations/cb_cf_hybrid_models.png"
          alt="Pie Chart of Top 100"
          width="600"
          height="400">
+    </p>
 </figure>
 
 
