@@ -1,6 +1,6 @@
 # Recommendation System for Microsoft's Launch into Video Streaming
 
-## *Creating a Hybrid-based Model to accurately predict what Users will watch*
+## *Creating a Hybrid-based Recommendation System to Accurately Predict what Users Will Watch*
 
 <figure>
     <img src="Illustrations/stream_service_readme.jpeg"
