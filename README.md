@@ -64,8 +64,8 @@ The following includes results printed from our model for userId 2. We used the 
     <p align="center">
         <img src="Illustrations/Excel_ActualvsPredict.png"
          alt="Excel example of Actual vs Predicted Results"
-         width="600"
-         height="400">
+         width="800"
+         height="200">
     </p>
 </figure>
 
