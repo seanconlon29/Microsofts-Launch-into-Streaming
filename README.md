@@ -81,7 +81,7 @@ The MovieLens Latest Small dataset, which is a collection of ratings and metadat
 
 ## Our Models
 
-Our Super Users:
+#### Our Super Users:
 The dataset is skewed as certain users have contributed significantly more data than others. Specifically, two users who favored the drama genre made up almost 5% of the entire dataset. As a result, their preferences may have influenced their ratings for other genres, and they may have rated dramas and comedies higher due to their personal preference.
 
 <figure>
