@@ -5,8 +5,8 @@
 <figure>
     <img src="Illustrations/stream_service_readme.jpeg"
          alt="Streaming Service Background"
-         width="1200"
-         height="600">
+         width="900"
+         height="500">
 </figure>
 
 Authors: Sean Conlon, Vinnie Amadio, Parker DeShazo
@@ -18,8 +18,8 @@ Date: 3/31/2023
 <figure>
     <img src="Illustrations/microsoft_building.jpeg"
          alt="Microsoft Representation"
-         width="800"
-         height="600">
+         width="700"
+         height="500">
 </figure>
 
 ### Project Overview
@@ -38,8 +38,8 @@ In the media and entertainment industry, there are six main types of recommendat
 <figure>
     <img src="Illustrations/cb_cf_hybrid_models.png"
          alt="Collab vs Content vs Hybrid Model"
-         width="800"
-         height="600">
+         width="600"
+         height="400">
 </figure>
 
 #### Content-based Recommendation System:
@@ -82,8 +82,8 @@ The distribution of ratings in the dataset is heavily skewed towards positive ra
 <figure>
     <img src="Illustrations/piechart_top100.png"
          alt="Top 100 Users compared to all other users"
-         width="800"
-         height="600">
+         width="600"
+         height="400">
 </figure>
 
 
@@ -93,8 +93,8 @@ The data limitations have caused a skew in the number of views for each genre. A
 <figure>
     <img src="Illustrations/AvgNumViews_Genre.png"
          alt="Top 10 Genres by Average Number of Views"
-         width="800"
-         height="600">
+         width="600"
+         height="400">
 </figure>
 
 
@@ -104,8 +104,8 @@ The following includes results printed from our model for userId 2. We used the 
 <figure>
     <img src="Illustrations/cb_cf_hybrid_models.png"
          alt="Pie Chart of Top 100"
-         width="800"
-         height="600">
+         width="600"
+         height="400">
 </figure>
 
 
