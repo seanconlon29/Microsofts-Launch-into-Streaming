@@ -57,6 +57,17 @@ Collaborative filtering assumes that users who have agreed in the past are likel
 #### Hybrid Recommendation System:
 A hybrid recommender system combines multiple recommendation techniques to solve problems and improve accuracy. This approach can overcome common issues in recommender systems such as cold start, sparsity, and knowledge engineering bottlenecks. By integrating content-based and collaborative filtering techniques, the hybrid recommender system can leverage the strengths of both approaches and minimize their limitations. Research has shown that hybrid recommender systems perform better than pure content-based or collaborative filtering methods
 
+#### Recommendation System at Work:
+The following includes results printed from our model for userId 2. We used the famous SVD algorithm and the surprise package to create, all of our models.Our Hybrid-Based Model combines both Collaborative and Content-Based models as well as offers our best predicted ratings compared to actual ratings of what your users would highly rate and watch.
+
+<figure>
+    <p align="center">
+        <img src="Illustrations/cb_cf_hybrid_models.png"
+         alt="Collab vs Content-based vs Hybrid"
+         width="600"
+         height="400">
+    </p>
+</figure>
 
 ### The Data
 The MovieLens Latest Small dataset, which is a collection of ratings and metadata for a variety of movies. Here's a brief summary of the dataset:
@@ -102,19 +113,6 @@ The data limitations have caused a skew in the number of views for each genre. A
     <p align="center">
         <img src="Illustrations/AvgNumViews_Genre.png"
          alt="Top 10 Genres by Average Number of Views"
-         width="600"
-         height="400">
-    </p>
-</figure>
-
-
-#### Recommendation Systems at Work:
-The following includes results printed from our model for userId 2. We used the famous SVD algorithm and the surprise package to create, all of our models.Our Hybrid-Based Model combines both Collaborative and Content-Based models as well as offers our best predicted ratings compared to actual ratings of what your users would highly rate and watch.
-
-<figure>
-    <p align="center">
-        <img src="Illustrations/cb_cf_hybrid_models.png"
-         alt="Collab vs Content-based vs Hybrid"
          width="600"
          height="400">
     </p>
