@@ -68,10 +68,10 @@ Our Super Users:
 The dataset is skewed as certain users have contributed significantly more data than others. Specifically, two users who favored the drama genre made up almost 5% of the entire dataset. As a result, their preferences may have influenced their ratings for other genres, and they may have rated dramas and comedies higher due to their personal preference.
 
 <figure>
-    <img src="Illustrations/cb_cf_hybrid_models.png"
-         alt="Super User 474"
-         width="800"
-         height="600">
+    <img src="Illustrations/top5_user414.png"
+         alt="Super User 414"
+         width="400"
+         height="200">
 </figure>
 
 
@@ -80,8 +80,8 @@ The distribution of ratings in the dataset is heavily skewed towards positive ra
 
 
 <figure>
-    <img src="Illustrations/cb_cf_hybrid_models.png"
-         alt="Pie Chart of Top 100"
+    <img src="Illustrations/piechart_top100.png"
+         alt="Top 100 Users compared to all other users"
          width="800"
          height="600">
 </figure>
@@ -91,8 +91,8 @@ The distribution of ratings in the dataset is heavily skewed towards positive ra
 The data limitations have caused a skew in the number of views for each genre. Although documentaries may not be the most popular genre, we believe that with sufficient data from a diverse set of users, it could gain popularity.
 
 <figure>
-    <img src="Illustrations/cb_cf_hybrid_models.png"
-         alt="Pie Chart of Top 100"
+    <img src="Illustrations/AvgNumViews_Genre.png"
+         alt="Top 10 Genres by Average Number of Views"
          width="800"
          height="600">
 </figure>
