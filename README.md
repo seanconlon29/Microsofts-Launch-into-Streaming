@@ -3,8 +3,8 @@
 <figure>
     <img src="Illustrations/stream_service_readme.jpeg"
          alt="Streaming Service Background"
-         width="800"
-         height="400">
+         width="1200"
+         height="800">
 </figure>
 
 
