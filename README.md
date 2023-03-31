@@ -26,12 +26,12 @@ Date: 3/31/2023
     </p>
 </figure>
 
-### Project Overview
+## Project Overview
 --------------------------------------------------------------------------------------------------------------------------------
 This project involves building a recommendation system for movies based on the MovieLens dataset, sourced from the GroupLens research lab at the University of Minnesota. The task at hand is to develop a model that can provide top 5 movie recommendations to users, based on their ratings of other movies. To accomplish this, the collaborative filtering approach must be implemented, and a potential hybrid approach could be explored by incorporating content-based filtering to address the cold start problem. The dataset is a widely-used recommendation system dataset in academic literature, and the project requires formulating a specific business problem within the context of recommending movies. Evaluation of the model can be done using the explicit ratings available in the dataset, and careful consideration of metrics is recommended.
 
 
-### Recommendation System Overview
+## Recommendation System Overview
 --------------------------------------------------------------------------------------------------------------------------------
 A recommendation system is a type of information filtering system that aims to predict a user's preference or rating for a particular item. These systems can be found in various areas such as movies, music, news, social tags, and products. Recommendation systems usually provide a list of recommendations to the user, and there are two popular methods to do this - collaborative filtering and content-based filtering.
 
@@ -79,8 +79,8 @@ The MovieLens Latest Small dataset, which is a collection of ratings and metadat
 - The ratings in the dataset are fairly sparse, meaning that not every user rated every movie. In fact, there are many movies in the dataset that received only a handful of ratings, making it challenging to accurately predict their popularity.
 - To address the cold-start problem,  we created the content-based system. This ensures that old and new users will be recommended possible watches and help users continuously use our platform.
 
-### Our Models
-
+## Our Models
+--------------------------------------------------------------------------------------------------------------------------------
 Our Super Users:
 The dataset is skewed as certain users have contributed significantly more data than others. Specifically, two users who favored the drama genre made up almost 5% of the entire dataset. As a result, their preferences may have influenced their ratings for other genres, and they may have rated dramas and comedies higher due to their personal preference.
 
@@ -120,10 +120,10 @@ The data limitations have caused a skew in the number of views for each genre. A
 
 
 ## Conclusion
-
+--------------------------------------------------------------------------------------------------------------------------------
 The dataset includes a wide variety of movies, ranging from obscure independent films to popular blockbusters. However, the most frequently rated movies tend to be well-known classics, such as "Forrest Gump", "Pulp Fiction", and "The Shawshank Redemption".
 Researchers have used the MovieLens dataset to explore a wide range of topics in recommendation systems, such as collaborative filtering, content-based filtering, and hybrid approaches. The dataset has also been used to evaluate the performance of various machine learning algorithms and to test the effectiveness of different recommendation strategies.
 
-## Structure
+### Structure
 
 This is the README of the project. The repo contains our technical jupyter notebook (final_notebook.ipynb) which shows the code used to prepare, clean, and model the data. Our final non-technical presentation can be seen at presentation.pdf
