@@ -6,8 +6,8 @@
     <p align="center">
     <img src="Illustrations/stream_service_readme.jpeg"
          alt="Streaming Service Background"
-         width="900"
-         height="500">
+         width="700"
+         height="400">
     </p>
 </figure>
 
@@ -62,8 +62,8 @@ The following includes results printed from our model for userId 2. We used the 
 
 <figure>
     <p align="center">
-        <img src="Illustrations/cb_cf_hybrid_models.png"
-         alt="Collab vs Content-based vs Hybrid"
+        <img src="Illustrations/Excel_ActualvsPredict.png"
+         alt="Excel example of Actual vs Predicted Results"
          width="600"
          height="400">
     </p>
