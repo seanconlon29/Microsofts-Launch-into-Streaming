@@ -1,5 +1,12 @@
 # Phase-4-Project
 
+<figure>
+    <img src="Illustrations/stream_service_readme.jpeg"
+         alt="Streaming Service Background"
+         width="400"
+         height="200">
+</figure>
+
 
 ### Project Overview
 --------------------------------------------------------------------------------------------------------------------------------
