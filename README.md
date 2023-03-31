@@ -42,13 +42,13 @@ In the media and entertainment industry, there are six main types of recommendat
          height="600">
 </figure>
 
-Content-based Recommendation System:
+#### Content-based Recommendation System:
 This type of recommendation system uses specific characteristics or features of an item, such as its description, to suggest similar items to the user. It also takes into account the user's preferences and history to generate personalized recommendations. For example, it can recommend movies that are similar to a movie that the user has watched or based on all of the movies that the user has viewed. The system extracts relevant features from the item and uses the user's history to provide suggestions.
 
-Collaborative Recommendation System:
+#### Collaborative Recommendation System:
 Collaborative filtering assumes that users who have agreed in the past are likely to agree in the future and have similar preferences. This method generates recommendations by analyzing the rating profiles of different users or items. By identifying other users/items with similar rating histories to the current user/item, it generates recommendations using this information. This technique creates a model based on a user's past actions, including items purchased, selected, or rated. The model is then used to predict items or ratings that the user may be interested in. Collaborative filtering can be classified as memory-based or model-based.
 
-Hybrid Recommendation System:
+#### Hybrid Recommendation System:
 A hybrid recommender system combines multiple recommendation techniques to solve problems and improve accuracy. This approach can overcome common issues in recommender systems such as cold start, sparsity, and knowledge engineering bottlenecks. By integrating content-based and collaborative filtering techniques, the hybrid recommender system can leverage the strengths of both approaches and minimize their limitations. Research has shown that hybrid recommender systems perform better than pure content-based or collaborative filtering methods
 
 
@@ -75,7 +75,7 @@ The dataset is skewed as certain users have contributed significantly more data 
 </figure>
 
 
-Ratings by Top 100 Users:
+#### Ratings by Top 100 Users:
 The distribution of ratings in the dataset is heavily skewed towards positive ratings. About 60% of the ratings are 4 stars or higher, which indicates that users in the dataset generally enjoyed the movies they watched.
 
 
@@ -87,7 +87,7 @@ The distribution of ratings in the dataset is heavily skewed towards positive ra
 </figure>
 
 
-Average viewers by Top 10 Genres:
+#### Average viewers by Top 10 Genres:
 The data limitations have caused a skew in the number of views for each genre. Although documentaries may not be the most popular genre, we believe that with sufficient data from a diverse set of users, it could gain popularity.
 
 <figure>
@@ -98,7 +98,7 @@ The data limitations have caused a skew in the number of views for each genre. A
 </figure>
 
 
-Recommendation Systems at Work:
+#### Recommendation Systems at Work:
 The following includes results printed from our model for userId 2. We used the famous SVD algorithm and the surprise package to create, all of our models.Our Hybrid-Based Model combines both Collaborative and Content-Based models as well as offers our best predicted ratings compared to actual ratings of what your users would highly rate and watch.
 
 <figure>
@@ -109,7 +109,7 @@ The following includes results printed from our model for userId 2. We used the 
 </figure>
 
 
-## Conclusion
+### Conclusion
 
 The dataset includes a wide variety of movies, ranging from obscure independent films to popular blockbusters. However, the most frequently rated movies tend to be well-known classics, such as "Forrest Gump", "Pulp Fiction", and "The Shawshank Redemption".
 Researchers have used the MovieLens dataset to explore a wide range of topics in recommendation systems, such as collaborative filtering, content-based filtering, and hybrid approaches. The dataset has also been used to evaluate the performance of various machine learning algorithms and to test the effectiveness of different recommendation strategies.
