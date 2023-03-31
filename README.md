@@ -67,15 +67,10 @@ The MovieLens Latest Small dataset, which is a collection of ratings and metadat
 Our Super Users:
 The dataset is skewed as certain users have contributed significantly more data than others. Specifically, two users who favored the drama genre made up almost 5% of the entire dataset. As a result, their preferences may have influenced their ratings for other genres, and they may have rated dramas and comedies higher due to their personal preference.
 
-Solarized dark             |  Solarized Ocean
-:-------------------------:|:-------------------------:
-![](https://...Dark.png)  |  ![](https://...Ocean.png)
-
-
 <figure>
     <p float="left">
-        <img src="Illustrations/top5_user414.png" width="300" />
-        <img src="Illustrations/top5_user414.png" width="300" /> 
+        <img src="Illustrations/top5_user414.png" width="500" height="400"/>
+        <img src="Illustrations/top5_user414.png" width="500" height="400"/> 
     </p>
 </figure>
 
