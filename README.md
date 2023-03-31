@@ -1,4 +1,6 @@
-# Phase-4-Project
+# Recommendation System for Microsoft's Launch into Video Streaming
+
+## *Creating a Hybrid-based Model to accurately predict what Users will watch*
 
 <figure>
     <img src="Illustrations/stream_service_readme.jpeg"
@@ -7,6 +9,11 @@
          height="600">
 </figure>
 
+Authors: Sean Conlon, Vinnie Amadio, Parker DeShazo
+
+Date: 3/31/2023
+
+## Stakeholder: Microsoft Studios
 
 ### Project Overview
 --------------------------------------------------------------------------------------------------------------------------------
