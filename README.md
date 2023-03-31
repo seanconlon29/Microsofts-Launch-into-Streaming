@@ -89,7 +89,7 @@ The distribution of ratings in the dataset is heavily skewed towards positive ra
     <p align="center">
         <img src="Illustrations/piechart_top100.png"
             alt="Top 100 Users compared to all other users"
-            width="600"
+            width="400"
             height="400">
     </p>
 </figure>
@@ -114,7 +114,7 @@ The following includes results printed from our model for userId 2. We used the 
 <figure>
     <p align="center">
         <img src="Illustrations/cb_cf_hybrid_models.png"
-         alt="Pie Chart of Top 100"
+         alt="Collab vs Content-based vs Hybrid"
          width="600"
          height="400">
     </p>
