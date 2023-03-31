@@ -71,7 +71,14 @@ The dataset is skewed as certain users have contributed significantly more data 
     <img src="Illustrations/top5_user414.png"
          alt="Super User 414"
          width="400"
-         height="200">
+         height="400">
+</figure>
+
+<figure>
+    <img src="Illustrations/top5_user474.png"
+         alt="Super User 414"
+         width="400"
+         height="400">
 </figure>
 
 
