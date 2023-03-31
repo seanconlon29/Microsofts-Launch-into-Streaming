@@ -109,7 +109,7 @@ The following includes results printed from our model for userId 2. We used the 
 </figure>
 
 
-### Conclusion
+## Conclusion
 
 The dataset includes a wide variety of movies, ranging from obscure independent films to popular blockbusters. However, the most frequently rated movies tend to be well-known classics, such as "Forrest Gump", "Pulp Fiction", and "The Shawshank Redemption".
 Researchers have used the MovieLens dataset to explore a wide range of topics in recommendation systems, such as collaborative filtering, content-based filtering, and hybrid approaches. The dataset has also been used to evaluate the performance of various machine learning algorithms and to test the effectiveness of different recommendation strategies.
