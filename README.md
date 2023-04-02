@@ -126,4 +126,4 @@ Researchers have used the MovieLens dataset to explore a wide range of topics in
 
 ### Structure
 
-This is the README of the project. The repo contains our technical jupyter notebook (Final_notebook.ipynb) which shows the code used to prepare, clean, and model the data. Our final non-technical presentation can be seen at presentation.pdf
+This is the README of the project. The repo contains our technical jupyter notebook (Final-Notebook.ipynb) which shows the code used to prepare, clean, and model the data. Our final non-technical presentation can be seen at presentation.pdf
